@@ -1,5 +1,6 @@
 ---
 ---
+@import 'bootstrap';
 
 @import 'main
 {%- if jekyll.environment == 'production' -%}
@@ -8,3 +9,4 @@
 ';
 
 /* append your custom style below */
+
