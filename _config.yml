@@ -198,6 +198,7 @@ sass:
   style: compressed
   load_paths:
     - node_modules/bootstrap/scss
+    - node_modules/rfs/scss
 
 
 compress_html:
