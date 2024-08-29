@@ -70,12 +70,14 @@ img {
   max-width: 100%;
   height: auto;
   transition: all 0.35s ease-in-out;
+  filter: none;
+  background: none;
 
   .blur & {
-    $blur: 20px;
+    // $blur: 20px;
 
-    -webkit-filter: blur($blur);
-    filter: blur($blur);
+    // -webkit-filter: blur($blur);
+    // filter: blur($blur);
   }
 }
 
@@ -519,35 +521,35 @@ main {
   position: relative;
   background: var(--img-bg);
 
-  &::before {
-    content: '';
-    position: absolute;
-    background: var(--shimmer-bg);
-    height: 100%;
-    width: 100%;
-    -webkit-animation: shimmer 1.3s infinite;
-    animation: shimmer 1.3s infinite;
-  }
+  // &::before {
+  //   content: '';
+  //   position: absolute;
+  //   background: var(--shimmer-bg);
+  //   height: 100%;
+  //   width: 100%;
+  //   -webkit-animation: shimmer 1.3s infinite;
+  //   animation: shimmer 1.3s infinite;
+  // }
 
-  @-webkit-keyframes shimmer {
-    0% {
-      transform: translateX(-100%);
-    }
+  // @-webkit-keyframes shimmer {
+  //   0% {
+  //     transform: translateX(-100%);
+  //   }
 
-    100% {
-      transform: translateX(100%);
-    }
-  }
+  //   100% {
+  //     transform: translateX(100%);
+  //   }
+  // }
 
-  @keyframes shimmer {
-    0% {
-      transform: translateX(-100%);
-    }
+  // @keyframes shimmer {
+  //   0% {
+  //     transform: translateX(-100%);
+  //   }
 
-    100% {
-      transform: translateX(100%);
-    }
-  }
+  //   100% {
+  //     transform: translateX(100%);
+  //   }
+  // }
 }
 
 .embed-video {
