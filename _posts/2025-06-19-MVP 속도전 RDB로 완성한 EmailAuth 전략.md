@@ -7,7 +7,7 @@ pin: true
 hidden: false
 ---
 
-# MVP 속도전: RDB로 완성한 EmailAuth 전략
+# MVP 속도전 - RDB로 완성한 EmailAuth 전략
 
 ---
 
